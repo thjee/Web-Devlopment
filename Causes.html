@@ -1,0 +1,424 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AIR POLLUTION </title>
+	<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/ion.sound.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        $.ionSound({
+            sounds: [
+                "beer_can_opening",
+                "bell_ring",
+                "3913",
+				"Abe",
+				"FossilFuels"
+            ],
+            path: "sounds/",
+            multiPlay: true,
+            volume: "1.0"
+        });
+
+        $(".b02").on("click", function(){
+            $.ionSound.play("FossilFuels");
+        });
+		  
+    });
+	
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+		$('#gallery1 a').lightBox();
+    });
+	
+</script>
+	
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+	
+	
+	<style>
+	
+	
+	ul.droppy {
+    list-style-type: none;
+    margin: 10px;
+  
+    overflow: hidden;
+			
+}
+
+li{
+    float: center;
+}
+		
+		
+		li a, .dropbtn {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+     text-decoration: none;
+			
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:rgba(87,87,87,1.00);
+
+	
+}
+
+li.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(122,94,59,1.00);
+  margin-left: auto;
+			margin-right:auto;
+	width:95%;
+	text-align: center;
+ 
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   
+	text-align: center;
+}
+
+.dropdown-content a:hover {background-color:rgba(87,87,87,1.00)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}	
+	
+		
+			body {
+	background-image: url(images/leafBg.jpg);
+		background-size:cover;
+	background-attachment: fixed;
+				background-image: url(images/bg.png);
+}
+	
+		
+	
+		#container{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background-color: rgba(86,44,13,0.50);
+	border-width: 66px;			
+			
+	
+			
+		}
+		
+		#header{
+	margin-top: 40px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 80px;
+	color: white;
+	text-align: center;
+	border-width: 77px;
+	}
+		#content
+		{
+			
+margin-left:auto;
+			
+	margin-top:160px;
+    width: 300px;
+   background-color:rgba(86,44,13,1.40);
+	position: absolute;
+	top: 190px;
+	
+			background-size:cover;
+	
+			
+			
+
+		}
+		
+		#main
+		{ margin-top:0px;
+			
+			margin-left:300px;
+		padding: 25px;
+			  background-color:grey;
+			
+			
+		}
+					
+	h3
+		{
+			clear: both;
+			color: white;
+			text-align: center;
+		}
+		
+		p{
+			
+			margin-left: 10px;
+			color: black;
+		}
+		
+		.image{
+			
+			display: block;
+			margin-left: 50px;
+			
+		}
+		
+		iframe
+		{
+			margin-left: 120px;
+		}
+	
+		#footer{
+		text-align: center;
+		padding: 10px;
+		background-color:rgba(86,44,13,0.60);
+			color:black;
+		}
+	
+	
+	
+		ul  {
+    list-style-type: none;
+text-align:left;
+			font-size: 18px;
+		
+ margin-right: 5px;
+	
+
+		}
+		
+	
+	
+	
+
+    body,td,th {
+	color: rgba(254,254,254,1);
+	font-weight: 400;
+	font-size: 20px;
+	font-family: coda;
+	font-style: normal;
+}
+	
+	
+	
+	
+	
+			#nav{
+			background-image: url(images/black-background-with-smoke-effect_23-2147611956.jpg);
+			background-size:cover;
+	background-attachment: fixed;
+			text-align: center;
+		}
+		
+		
+		.pull {
+	background-color: rgba(193,193,193,.50);
+	width: 720px;
+	padding: 15px;
+	font-style: italic;
+	-webkit-box-shadow: 10px 10px 5px rgba(77,77,77,1.00);
+	box-shadow: 10px 10px 5px rgba(77,77,77,1.00);
+			margin-left: 80px;
+}
+	
+		
+		
+		
+	
+	</style>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</head>
+
+<body onLoad="MM_preloadImages('images/FossilFuelImpacts.jpg')">
+	
+<div id= "nav">
+	
+	  <ul class="droppy">
+				<li class="dropdown">
+					<h1 class="proto"><a href="javascript:void(0)" class="dropbtn"><u>Lets Talk about Air Pollution </u></a></h1>
+					<div class="dropdown-content">
+			
+						<a href="HOME.html">About Air Pollution</a>	
+		<a href="history.html">History</a>
+			<a href="Causes.html">What Causes it? </a> 
+				<a href="effects.html">Why is it bad?</a>
+				<a href="solution.html">How can we control it?</a>
+						<a href="Sources.html">Sources</a>
+					</div>
+				</li>
+				</ul>
+	  </div>
+		
+	
+	
+	
+	<div id="container">
+		
+		
+		
+		
+	
+	<div id="header">
+		
+		
+		
+	  <h1> Air Pollution: One of the Major Global Issues of 2018</h1>
+		
+			
+		
+	  </div>
+		
+		<div id="content">
+		<ul>
+			<hr>
+		  <h2>CONTENTS</h2>
+			<hr><br>
+	<li>3.1 Burning of Fossil Fuels</li><br>
+
+	<li> 3.2 Agricultural activities </li><br>
+
+						<li>3.3 Exhaust from factories and industries</li><br>
+
+						<li>3.4  Mining operations</li><br>
+			<li>3.5 Indoor Air Pollution</li><br>
+			<li>3.6 Increasing temperatires</li><br>
+			<li>3.7 Microbial Decaying Process</li><br>
+			<li>3.8 Radioactive decay processes</li><br>
+			
+			
+
+					<hr>	
+
+		</ul>
+		
+		</div>
+		
+		
+	
+		
+		
+	<div id= "main"	>
+		
+		
+		<h2>3. What is Causing Air Pollution?</h2>
+		
+			
+<iframe allowfullscreen width="640" height="360" src="//assets.nationalgeographic.com/modules-video/latest/assets/ngsEmbeddedVideo.html?guid=0000015f-16ca-d969-a75f-17ea804d0000" frameborder="0" scrolling="no"></iframe>
+
+	  <p class= "pull"> Climate change briefly explained by national Geography</p>
+		
+	  <h4> 3.1 Burning of Fossil Fuels: </h4> <p>Sulfur dioxide emitted from the combustion of fossil fuels like coal, petroleum and other factory combustibles is one the major cause of air pollution. Pollution emitting from vehicles including trucks, jeeps, cars, trains, airplanes cause immense amount of pollution. We rely on them to fulfill our daily basic needs of transportation. But, there overuse is killing our environment as dangerous gases are polluting the environment. Carbon Monooxide caused by improper or incomplete combustion and generally emitted from vehicles is another major pollutant along with Nitrogen Oxides, that is produced from both natural and man made processes.</p>
+		<br><br>
+		
+		<img src="images/airEmission.jpg" width="600" height="500" alt=""/><br>
+
+<audio controls="controls" >
+      <source src="sounds/FossilFuels.mp3" type="audio/mp3">
+      </audio>
+		
+	  <p class = "pull">Explaining how Fossil Fuel causes Air Pollution</p>
+		
+			
+		
+		
+<h4> 3.2 Agricultural activities:</h4>  
+		<p>Ammonia is a very common by product from agriculture related activities and is one of the most hazardous gases in the atmosphere. Use of insecticides, pesticides and fertilizers in agricultural activities has grown quite a lot. They emit harmful chemicals into the air and can also cause water pollution.</p>
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/07P_wXTTusI?rel=0&amp;start=17" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	  <p class = "pull"> Explaining how agriculture becomes a leading cause of Air pollution</p>
+
+<h4>3.3 Exhaust from factories and industries: </h4> <p>Manufacturing industries release large amount of carbon monoxide, hydrocarbons, organic compounds, and chemicals into the air thereby depleting the quality of air. Manufacturing industries can be found at every corner of the earth and there is no area that has not been affected by it. Petroleum refineries also release hydrocarbons and various other chemicals that pollute the air and also cause land pollution. <br>
+<br>
+<img src="images/FossilFuels.jpg" alt="" width="640" height="360" id="Image1" onMouseOver="MM_swapImage('Image1','','images/FossilFuelImpacts.jpg',1)" onMouseOut="MM_swapImgRestore()"/> </p>
+		
+	  <p class= "pull"> Picture of a mining factory emitting harmful chemical compounds.</p>
+
+<h4>3.4 Mining operations: </h4> <p>Mining is a process wherein minerals below the earth are extracted using large equipments. During the process dust and chemicals are released in the air causing massive air pollution. This is one of the reason which is responsible for the deteriorating health conditions of workers and nearby residents.</p>
+
+<h4>3.5 Indoor air pollution: </h4> <p>Household cleaning products, painting supplies emit toxic chemicals in the air and cause air pollution. Have you ever noticed that once you paint walls of your house, it creates some sort of smell which makes it literally impossible for you to breathe.
+
+Suspended particulate matter popular by its acronym SPM, is another cause of pollution. Referring to the particles afloat in the air, SPM is usually caused by dust, combustion etc.
+		<div id="gallery">
+		<a href="images/IndoorAirPollution.jpg"><img src="images/IndoorAirPollution.jpg" width="500" height="390" alt=""/></a></div></p>
+		
+	  <p class = "pull">Click to read </p>
+		
+		
+		
+		<h4>3.6 Increasing temperatures </h4>
+	  <p>Contribute to an increase in the amounts of contaminants volatilizing from polluted soil and water into the air.</p>
+		<div id="gallery1"> <a href="images/GlobalWarming.png"><img src="images/GlobalWarming.png" width="640" height="360" alt=""/></a> </div>
+		
+	  <p class = "pull">Click to maximize</p>
+		
+	<h4>3.7 Microbial decaying processes</h4> 
+		<p>Microorganisms which are present in any environment have a major role in natural decaying processes of living organisms as well as environmental contaminants; this activity results in the natural release of gases especially methane gas;
+		</p>
+		
+		<h4>3.8 Radioactive decay processes</h4> 
+	  <p>For example, radon gas is emitted due to natural decay processes of Earth’s crust which has potential to accumulate in enclosed spaces such as basements.</p></div>
+	
+	
+	
+	 <div id="footer">
+			
+			<h3> Jeevika Thapalia | Web Art and Design | 2018 </h3>
+	  </div>
+	
+</div>
+	
+</body>
+</html>
